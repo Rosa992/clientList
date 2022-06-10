@@ -1,0 +1,55 @@
+body {
+  background-color: #D3EBCD;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.name {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.second{
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.breed{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.thirdSection {
+  padding-top: 10px;
+}
+
+.age {
+  margin-left: 10px;
+}
+
+.food {
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.seventh {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.notes {
+  line-height: 4em;
+  width: 200px;
+}
+
+.eigthSection {
+  margin: auto;
+  padding: 20px 10px;
+  text-align: center;
+
+}
