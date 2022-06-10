@@ -34,8 +34,11 @@ body {
 .food {
   display: inline-block;
   margin: auto;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px;
+}
+
+.sixth {
+padding: 20px;
 }
 
 .seventh {
