@@ -37,13 +37,9 @@ body {
   padding-bottom: 10px;
 }
 
-.sched {
-padding-left: 10px;
-}
-
 .seventh {
   margin: auto;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .notes {
@@ -55,5 +51,12 @@ padding-left: 10px;
   margin: auto;
   padding: 20px 10px;
   text-align: center;
+}
 
+.mail {
+  margin-top: 10px;
+}
+
+.reset, .send {
+  margin-top: 10px;
 }
