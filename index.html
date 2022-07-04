@@ -5,93 +5,87 @@
     <title>Client List</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-
   <body>
+<main>
+  <!-- Client Section -->
+<header>
+  <h1>Client List</h1>
+</header>
 
-<div class="header">
-<h1>Client List</h1>
-</div>
-
-<div class="firstSection">
-  <h3>Client Name</h3>
-
+<section>
+  <div class="content-wrap">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <label for="fname">First Name</label>
-  <input class="name" type="text" name="fname"><br>
-  <label for="fname">First Name</label>
-  <input class="name" type="text" name="fname"><br>
-  <label for="lname">Last Name</label>
-  <input class="name" type="text" name="lname"><br>
-</div>
+    <h2>Client</h2>
+<label for="email">First Name</label>
+<input type="text" name="Firstname"><br>
+<label for="email">First Name</label>
+<input type="text" name="Secondname"><br>
+<label for="email">Last Name</label>
+<input type="text" name="LastName"><br>
+<label for="email">Emergency Contact</label>
+<input type="text" name="Emergname"><br>
+<label for="email">Contact Number</label>
+<input type="text" name="Emergnumber">
+  </div>
+</section>
 
-<div class="secondSection">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <h3 class="second">Pet Care Info</h3>
-    <label for="pname">Pet Name</label>
-    <input class="name" type="text" name="pname"><br>
-<label class="breed" for="breed">Breed</label>
-<input type="text" name="breed">
-</div>
+<!-- Pet Care Info Section -->
 
-<div class="thirdSection">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <h3>Energy Level</h3>
+<section>
+  <div class="content-wrap">
+  <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+  <h2>Pet Info</h2>
+  <label for="email">Name</label>
+  <input type="text" name="Pettname"><br>
+  <label for="email">Age</label>
+  <input type="text" name="Breed"><br>
+  <label for="email">Breed</label>
+  <input type="text" name="Pettname"><br>
+
+  <h2>Energy Level</h2>
   <label for="energy">Low</label>
   <input type="checkbox" name="energy">
   <label for="energy">Medium</label>
   <input type="checkbox" name="energy">
   <label for="energy">High</label>
   <input type="checkbox" name="energy">
-</div>
 
-<div class="fourthSection">
-<h3>Friendliness</h3>
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <label for="people">People</label>
+<h2>Friendliness</h2>
+  <label for="email">People</label>
   <input type="checkbox" name="people">
-  <label for="children">Children</label>
+  <label for="email">Children</label>
   <input type="checkbox" name="energy">
-  <label for="dogs">Dogs</label>
+  <label for="email">Dogs</label>
   <input type="checkbox" name="people">
-  <label for="cats">Cats</label>
+  <label for="email">Cats</label>
   <input type="checkbox" name="energy">
-</div>
 
-<div class="fifthSection">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-  <h3>Pet Age</h3>
-    <label for="age">Age</label>
-    <input class="age" type="text" name="age">
-  </div>
+<h3>Offleash</h3>
+  <label for="email">Yes</label>
+  <input type="checkbox" name="energy">
+  <label for="email">No</label>
+  <input type="checkbox" name="energy">
 
-<div class="sixthSection">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 <h3>Feeding</h3>
-<label for="sched">Time</label>
-<input class"sched" type="text" name="sched">
-<p class="food">-</p>
-<input class"sched" type="text" name="sched">
-<label for="graze">Grazing</label>
+<label for="email">Morning</label>
+<input type="text" name="Morning">
+<label for="email">Evening</label>
+<input type="text" name="Evening"><br>
+<label for="email">Grazing</label>
 <input type="checkbox" name="graze">
-</div>
+<h3>Extra Notes</h3>
+<textarea name="Notes" form="email" rows="8" cols="80"></textarea>
+  </div>
+</section>
 
-<div class="seventhSection">
-  <h3 class="seventh">Extra Notes</h3>
-    <label for="notes"></label><br>
-    <input class="notes" type="text" name="notes">
-</div>
+<!-- Email Section-->
 
-<div class="eigthSection">
-<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+<footer>
+  <li><a href="mailto:email@example.com">Email</a></li>
 
+    
+</footer>
 
-E-mail:<br>
-<input class="mail" type="text" name="mail"><br>
-<input class="send" type="submit" value="Send">
-<input class="reset" type="reset" value="Reset">
-</form>
-
-</div>
-
+</main>
   </body>
 </html>
