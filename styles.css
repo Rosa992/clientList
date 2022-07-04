@@ -1,66 +1,42 @@
+/* Global Style */
 body {
   background-color: #D3EBCD;
 }
 
-.header {
-  margin: auto;
-  text-align: center;
-  padding-top: 20px;
-}
+/* Header */
 
-.name {
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-
-.second{
-  padding-bottom: 20px;
-  margin: auto;
-}
-
-.breed{
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-.thirdSection {
-  padding-top: 10px;
-}
-
-.age {
-  margin-left: 10px;
-}
-
-.food {
-  display: inline-block;
-  margin: auto;
-  padding-bottom: 10px;
-}
-
-.sched {
-width: 55px;
-}
-
-.seventh {
-  margin: auto;
-  padding-top: 10px;
-}
-
-.notes {
-  line-height: 4em;
-  width: 200px;
-}
-
-.eigthSection {
-  margin: auto;
-  padding: 20px 10px;
+header {
   text-align: center;
 }
 
-.mail {
-  margin-top: 10px;
+/* Client Section */
+input[type=text] {
+  margin: 5px 5px;
 }
 
-.reset, .send {
-  margin-top: 10px;
+/* Pet Care Info Section */
+
+
+.content-wrap {
+  text-align: center;
+}
+
+
+
+/* Email Section */
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.send, .reset {
+  margin-top: 15px;
+}
+
+.send {
+  margin-left: 30px;
+}
+
+.reset {
+  margin-left: 5px;
 }
