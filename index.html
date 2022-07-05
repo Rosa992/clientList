@@ -3,7 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>Pet Sitting</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- Styles -->
+
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -16,86 +23,84 @@
 
     <section>
       <div class="content-wrap">
-        <form action="/action_page.php" method="get">
+
           <h2>Client</h2>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
           <label for="email">First Name</label>
-          <input type="text" name="Firstname"><br>
+          <input type="text" name="firstName"><br>
           <label for="email">First Name</label>
-          <input type="text" name="Secondname"><br>
+          <input type="text" name="secondName"><br>
           <label for="email">Last Name</label>
-          <input type="text" name="LastName"><br>
+          <input type="text" name="lastName"><br>
           <label for="email">Emergency Contact</label>
-          <input type="text" name="Emergname"><br>
+          <input type="text" name="emergName"><br>
           <label for="email">Contact Number</label>
-          <input type="text" name="Emergnumber">
+          <input type="text" name="emergNumber">
 
 
     <!-- Pet Care Info Section -->
 
-
-
           <h2>Pet Info</h2>
           <label for="email">Name</label>
-          <input type="text" name="Pettname"><br>
+          <input type="text" name="petsName"><br>
           <label for="email">Age</label>
-          <input type="text" name="Age"><br>
+          <input type="text" name="petsAge"><br>
           <label for="email">Breed</label>
-          <input type="text" name="Breed"><br>
+          <input type="text" name="petsBreed"><br>
 
-
-
-
+<!-- Energy Level -->
 
           <h2>Energy Level</h2>
           <label for="email">Low</label>
-          <input type="checkbox" name="Low">
+          <input type="checkbox" name="energyLevelLow">
           <label for="email">Medium</label>
-          <input type="checkbox" name="Medium">
+          <input type="checkbox" name="energyLevelMedium">
           <label for="email">High</label>
-          <input type="checkbox" name="High">
+          <input type="checkbox" name="energyLevelHigh">
 
-
+<!-- Friendliness -->
 
       <h2>Friendliness</h2>
       <label for="email">People</label>
-      <input type="checkbox" name="People">
+      <input type="checkbox" name="friendlyWithPeople">
       <label for="email">Children</label>
-      <input type="checkbox" name="Children">
+      <input type="checkbox" name="friendlyWithChildren">
       <label for="email">Dogs</label>
-      <input type="checkbox" name="Dogs">
+      <input type="checkbox" name="friendlyWithDogs">
       <label for="email">Cats</label>
-      <input type="checkbox" name="Cats">
+      <input type="checkbox" name="friendlyWithCats">
 
 
 
-
+<!-- Offleash -->
 
         <h3>Offleash</h3>
         <label for="email">Yes</label>
-        <input type="checkbox" name="Yes">
+        <input type="checkbox" name="offleashYes">
         <label for="email">No</label>
-        <input type="checkbox" name="No">
+        <input type="checkbox" name="offleashNo">
 
 
-
+<!-- Feeding -->
 
           <h3>Feeding</h3>
           <label for="email">Morning</label>
-          <input type="text" name="morning">
+          <input type="text" name="Morning">
           <label for="email">Evening</label>
-          <input type="text" name="evening"><br>
+          <input type="text" name="Evening"><br>
           <label for="email">Grazing</label>
           <input type="checkbox" name="graze">
 
-            <h3>Extra Notes</h3>
-            <textarea name="Notes" form="email" rows="8" cols="80"></textarea>
+<!-- Extra Notes -->
+
+  <h3>Extra Notes</h3>
+
+          <textarea type="textarea" name="notes" rows="8" cols="80"></textarea>
 
 
             <!-- Email Section-->
 
             <footer>
-
-
                   <label for="email">Email</label>
                   <input class="mail" type="text" name="mail"><br>
                   <input class="send" type="submit" value="Send">
