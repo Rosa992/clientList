@@ -17,10 +17,20 @@ input[type=text] {
 
 /* Pet Care Info Section */
 
-
 .content-wrap {
   text-align: center;
 }
+
+/* Feeding */
+
+p {
+  display: inline-block;
+}
+
+.feeding {
+max-width: 50px;
+}
+
 
 
 
